@@ -1,68 +1,105 @@
-# Devops Somewhat Demystified: Hopefully
+# devops (somewhat) demystified
 
-## Overview 
-## Division of tooling 
-### Source control 
-#### Overview
-#### Basic Concepts
- - pull
- - add
- - commit 
- - push
- - branch
-  - add / commit / push / checkout
+## Overview
+ - history
+ - methodology
+ - current tools aka crazy CNCF diagram
 
-Show UI of Pull request 
- - manual merge requests 
- - automated merge requests
+## Division of Tooling
+ - Dev
+ - Ops
+ - Security
 
-#### Source Control at IBM Cloud 
- - Gitlab 
-### Continuous as a Service
- - aka ci/cd/cd/ct/yadda-yadda-yadda
+## Continuous Everything
+ - Overview
 
-#### Overview
-**Continuous Integration**
- - source control 
- - build system
- - test
+### Continuous Integration
+	- Overview
+ - Common Tools
+	- CI at IBM
 
-**Continuous Deployment**
- - 
+### Continuous Delivery
+	- Overview
+	- Common Tools
+	- CD at IBM
 
-**Continuous Delivery**
- - 
+### Continuous Deployment
+	- Overview
+	- Common Tools
+	- CD at IBM
 
-**Continuous Testing**
+### Continuous Testing
 
-#### Continuous Tooling at IBM Cloud
- - Continuous Delivery
- - Tekton
- - Gitlab
- - Code Advisor thingy
- - Vulnerability Advisor 
- - 3rd Party
+	- Overview
 
-## Put it in Action
-### Schematics 
- - Overview 
- - Tutorial Steps
-    - Clone Schematics Repo 
-    - Create workspace 
-        - Add variables (mark sensitive)
-        - show readme 
-    - Plan 
-    - Apply 
+	- Common Tools
 
- > Great for testing and demo, bad for production. 
+	- CT at IBM
 
-### Adding Continuous Delivery to Schematics
- - Click pipeline link
-    - explore
-    - look at pipeline worker choice
-    - does it run the first time? 
- - Make change to repo and watch pipeline 
+### Continuous Tooling at IBM
+	- Continuous Delivery
+	- Tekton
+	- Gitlab
+	- Code Advisor /Insight
+ - Vulnerability Advisor
+	- 3rd Party
 
-### A Hat on a Hat
- - Schematics Actions 
- 
+## Source Control
+- Overview
+- Tools
+ - git
+	- github
+	- gitlab
+	- subversion
+	- bitbucket
+
+### Basic Commands
+
+	- pull
+
+	- add
+
+	- commit
+
+	- push
+
+- Branches
+
+	- Merge Requests
+
+	- Automated vs Manual
+
+- Source Control at IBM
+
+- Demo
+
+## In Practice
+
+### Schematics
+
+- Overview
+
+- Create
+
+- Variables and Readme
+
+- Plan
+
+- Apply
+
+### Enabling Continuous  Delivery
+
+- Walk through pipeline
+
+- Add Private workers
+
+### make change to repo
+
+- add / commit / push
+
+- watch decops pipeline
+
+### Adding additional tools
+
+### Bonus Round: Schematics Actions
+
