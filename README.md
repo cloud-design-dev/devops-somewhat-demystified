@@ -18,7 +18,8 @@ Show UI of Pull request
 
 #### Source Control at IBM Cloud 
  - Gitlab 
-### Continuous as a Service!@#
+### Continuous as a Service
+ - aka ci/cd/cd/ct/yadda-yadda-yadda
 
 #### Overview
 **Continuous Integration**
